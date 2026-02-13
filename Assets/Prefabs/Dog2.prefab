@@ -1654,9 +1654,10 @@ GameObject:
   - component: {fileID: 5330230115029641651}
   - component: {fileID: 4178196947655248927}
   - component: {fileID: 8238387397861001430}
+  - component: {fileID: -8207577628376667870}
   m_Layer: 0
   m_Name: Dog2
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1808,6 +1809,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.06186847, y: 0.21080172, z: 0.25065812}
   m_Center: {x: -0.00031448263, y: 0.10340309, z: 0.036817644}
+--- !u!114 &-8207577628376667870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1928853565600797406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54335fa33e760af46a474df5130b2b78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HealthV1
+  hp: 100
 --- !u!1 &1943042428860944057
 GameObject:
   m_ObjectHideFlags: 0

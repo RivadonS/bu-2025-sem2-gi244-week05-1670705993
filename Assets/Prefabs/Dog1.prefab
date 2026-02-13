@@ -5205,9 +5205,10 @@ GameObject:
   - component: {fileID: -1502646817843220116}
   - component: {fileID: 7263304562125304981}
   - component: {fileID: 3350600959827275612}
+  - component: {fileID: -4715882862183618969}
   m_Layer: 0
   m_Name: Dog1
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5359,6 +5360,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.06635982, y: 0.21171123, z: 0.2610612}
   m_Center: {x: -0.0012152493, y: 0.10510132, z: 0.032440424}
+--- !u!114 &-4715882862183618969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7591800460858037780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54335fa33e760af46a474df5130b2b78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HealthV1
+  hp: 100
 --- !u!1 &7692137883847282898
 GameObject:
   m_ObjectHideFlags: 0
