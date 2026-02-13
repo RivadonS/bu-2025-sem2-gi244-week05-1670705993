@@ -3,9 +3,13 @@ using UnityEngine;
 public class GameState : MonoBehaviour
 {
     public int hitCount = 0;
+    public const string ENEMY_TAG = "Enemy";
     void OnTriggerEnter(Collider other)
     {
-        hitCount++;
+        if (other.gameObject.CompareTag(ENEMY_TAG))
+        {
+            hitCount++;
+        }
 
         if (hitCount >= 5)
         {
