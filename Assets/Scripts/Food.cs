@@ -6,6 +6,6 @@ public class Food : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-
+        Debug.Log("Hit " + other.gameObject.name);
     }
 }
